@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>R3TR0_R34L1TY Wiki</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #101010;
+            color: #eeeeee;
+        }
+
+        header {
+            background: #1b1b1b;
+            border-bottom: 3px solid #555;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 36px;
+            letter-spacing: 3px;
+        }
+
+        header p {
+            color: #999;
+        }
+
+        nav {
+            background: #252525;
+            padding: 12px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+
+        nav a:hover {
+            color: #ff4444;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: auto;
+            padding: 30px;
+        }
+
+        .warning {
+            background: #2b1717;
+            border: 1px solid #aa3333;
+            padding: 15px;
+            margin-bottom: 25px;
+        }
+
+        .card {
+            background: #1c1c1c;
+            border: 1px solid #333;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 6px;
+        }
+
+        .card h2 {
+            margin-top: 0;
+            color: #ff5555;
+        }
+
+        .character {
+            display: inline-block;
+            width: 28%;
+            min-width: 200px;
+            margin: 1%;
+            padding: 15px;
+            background: #252525;
+            border: 1px solid #444;
+            border-radius: 6px;
+            vertical-align: top;
+        }
+
+        button {
+            background: #333;
+            color: white;
+            border: 1px solid #666;
+            padding: 10px 15px;
+            cursor: pointer;
+            border-radius: 4px;
+        }
+
+        button:hover {
+            background: #ff4444;
+        }
+
+        #secret {
+            display: none;
+            margin-top: 15px;
+            color: #ff5555;
+        }
+
+        footer {
+            text-align: center;
+            padding: 30px;
+            color: #666;
+            border-top: 1px solid #333;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>R3TR0_R34L1TY</h1>
+    <p>The unofficial wiki</p>
+</header>
+
+<nav>
+    <a href="#home">Home</a>
+    <a href="#characters">Characters</a>
+    <a href="#lore">Lore</a>
+    <a href="#updates">Updates</a>
+</nav>
+
+<div class="container">
+
+    <section id="home" class="card">
+        <h2>Welcome to the R3TR0_R34L1TY Wiki</h2>
+
+        <p>
+            Welcome to the wiki for <b>R3TR0_R34L1TY</b>,
+            a Roblox game featuring survivors, killers,
+            strange maps, mysterious events and a whole lot of chaos.
+        </p>
+
+        <p>
+            Current status: <b>IN DEVELOPMENT</b>
+        </p>
+    </section>
+
+    <div class="warning">
+        ⚠️ <b>WARNING:</b>
+        This wiki contains spoilers, strange lore and information
+        about R3TR0_R34L1TY.
+    </div>
+
+    <section id="characters" class="card">
+        <h2>Characters</h2>
+
+        <div class="character">
+            <h3>Cappy0</h3>
+            <p>Role: Survivor</p>
+            <p>Known for working as a shop cashier.</p>
+        </div>
+
+        <div class="character">
+            <h3>SawNoob</h3>
+            <p>Role: Killer</p>
+            <p>Price: 3400 TIX</p>
+            <p>A terrifying Noob-themed killer.</p>
+        </div>
+
+        <div class="character">
+            <h3>Rochas313</h3>
+            <p>Role: Killer</p>
+            <p>Price: 5000 TIX</p>
+            <p>Connected to the mysterious SPREAD phenomenon.</p>
+        </div>
+
+        <div class="character">
+            <h3>Y0URS3LF</h3>
+            <p>Role: Killer</p>
+            <p>Price: 2006 TIX</p>
+            <p>A mysterious avatar-corruption killer.</p>
+        </div>
+    </section>
+
+    <section id="lore" class="card">
+        <h2>Lore</h2>
+
+        <p>
+            Something is very wrong with R3TR0_R34L1TY.
+        </p>
+
+        <p>
+            Strange entities, corrupted avatars and unexplained
+            events appear throughout the game.
+        </p>
+
+        <p>
+            One of the most mysterious phenomena is known simply as:
+        </p>
+
+        <h2>SPREAD</h2>
+
+        <p>
+            Nobody knows exactly where it came from.
+            Some believe it is connected to a strange tree-like
+            infection.
+        </p>
+    </section>
+
+    <section id="updates" class="card">
+        <h2>Latest Updates</h2>
+
+        <ul>
+            <li>New killer: Y0URS3LF</li>
+            <li>SawNoob chase theme V2</li>
+            <li>New lobby music</li>
+            <li>New map: Remains</li>
+            <li>More lore and character changes</li>
+        </ul>
+    </section>
+
+    <section class="card">
+        <h2>???</h2>
+
+        <button onclick="revealSecret()">
+            CLICK TO INVESTIGATE
+        </button>
+
+        <div id="secret">
+            <b>SPREAD</b><br>
+            Something is watching.
+        </div>
+    </section>
+
+</div>
+
+<footer>
+    R3TR0_R34L1TY Wiki • Fan-made project
+</footer>
+
+<script>
+    function revealSecret() {
+        document.getElementById("secret").style.display = "block";
+    }
+</script>
+
+</body>
+</html><!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>R3TR0_R34L1TY Wiki</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #101010;
+            color: #eeeeee;
+        }
+
+        header {
+            background: #1b1b1b;
+            border-bottom: 3px solid #555;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 36px;
+            letter-spacing: 3px;
+        }
+
+        header p {
+            color: #999;
+        }
+
+        nav {
+            background: #252525;
+            padding: 12px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+
+        nav a:hover {
+            color: #ff4444;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: auto;
+            padding: 30px;
+        }
+
+        .warning {
+            background: #2b1717;
+            border: 1px solid #aa3333;
+            padding: 15px;
+            margin-bottom: 25px;
+        }
+
+        .card {
+            background: #1c1c1c;
+            border: 1px solid #333;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 6px;
+        }
+
+        .card h2 {
+            margin-top: 0;
+            color: #ff5555;
+        }
+
+        .character {
+            display: inline-block;
+            width: 28%;
+            min-width: 200px;
+            margin: 1%;
+            padding: 15px;
+            background: #252525;
+            border: 1px solid #444;
+            border-radius: 6px;
+            vertical-align: top;
+        }
+
+        button {
+            background: #333;
+            color: white;
+            border: 1px solid #666;
+            padding: 10px 15px;
+            cursor: pointer;
+            border-radius: 4px;
+        }
+
+        button:hover {
+            background: #ff4444;
+        }
+
+        #secret {
+            display: none;
+            margin-top: 15px;
+            color: #ff5555;
+        }
+
+        footer {
+            text-align: center;
+            padding: 30px;
+            color: #666;
+            border-top: 1px solid #333;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>R3TR0_R34L1TY</h1>
+    <p>The unofficial wiki</p>
+</header>
+
+<nav>
+    <a href="#home">Home</a>
+    <a href="#characters">Characters</a>
+    <a href="#lore">Lore</a>
+    <a href="#updates">Updates</a>
+</nav>
+
+<div class="container">
+
+    <section id="home" class="card">
+        <h2>Welcome to the R3TR0_R34L1TY Wiki</h2>
+
+        <p>
+            Welcome to the wiki for <b>R3TR0_R34L1TY</b>,
+            a Roblox game featuring survivors, killers,
+            strange maps, mysterious events and a whole lot of chaos.
+        </p>
+
+        <p>
+            Current status: <b>IN DEVELOPMENT</b>
+        </p>
+    </section>
+
+    <div class="warning">
+        ⚠️ <b>WARNING:</b>
+        This wiki contains spoilers, strange lore and information
+        about R3TR0_R34L1TY.
+    </div>
+
+    <section id="characters" class="card">
+        <h2>Characters</h2>
+
+        <div class="character">
+            <h3>Cappy0</h3>
+            <p>Role: Survivor</p>
+            <p>Known for working as a shop cashier.</p>
+        </div>
+
+        <div class="character">
+            <h3>SawNoob</h3>
+            <p>Role: Killer</p>
+            <p>Price: 3400 TIX</p>
+            <p>A terrifying Noob-themed killer.</p>
+        </div>
+
+        <div class="character">
+            <h3>Rochas313</h3>
+            <p>Role: Killer</p>
+            <p>Price: 5000 TIX</p>
+            <p>Connected to the mysterious SPREAD phenomenon.</p>
+        </div>
+
+        <div class="character">
+            <h3>Y0URS3LF</h3>
+            <p>Role: Killer</p>
+            <p>Price: 2006 TIX</p>
+            <p>A mysterious avatar-corruption killer.</p>
+        </div>
+    </section>
+
+    <section id="lore" class="card">
+        <h2>Lore</h2>
+
+        <p>
+            Something is very wrong with R3TR0_R34L1TY.
+        </p>
+
+        <p>
+            Strange entities, corrupted avatars and unexplained
+            events appear throughout the game.
+        </p>
+
+        <p>
+            One of the most mysterious phenomena is known simply as:
+        </p>
+
+        <h2>SPREAD</h2>
+
+        <p>
+            Nobody knows exactly where it came from.
+            Some believe it is connected to a strange tree-like
+            infection.
+        </p>
+    </section>
+
+    <section id="updates" class="card">
+        <h2>Latest Updates</h2>
+
+        <ul>
+            <li>New killer: Y0URS3LF</li>
+            <li>SawNoob chase theme V2</li>
+            <li>New lobby music</li>
+            <li>New map: Remains</li>
+            <li>More lore and character changes</li>
+        </ul>
+    </section>
+
+    <section class="card">
+        <h2>???</h2>
+
+        <button onclick="revealSecret()">
+            CLICK TO INVESTIGATE
+        </button>
+
+        <div id="secret">
+            <b>SPREAD</b><br>
+            Something is watching.
+        </div>
+    </section>
+
+</div>
+
+<footer>
+    R3TR0_R34L1TY Wiki • Fan-made project
+</footer>
+
+<script>
+    function revealSecret() {
+        document.getElementById("secret").style.display = "block";
+    }
+</script>
+
+</body>
+</html>
